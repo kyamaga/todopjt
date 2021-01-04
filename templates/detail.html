@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="alert alert-primary" role="alert">
+  {{ object.title }}
+</div>
+<div class="alert alert-primary" role="alert">
+  {{ object.memo }}
+</div>
+<div class="alert alert-primary" role="alert">
+  {{ object.priority }}
+</div>
+<div class="alert alert-primary" role="alert">
+  {{ object.duedate }}
+</div>
+{% endblock content %}
